@@ -85,8 +85,8 @@ div.element-col-nav-2{
 }
 
 section.divider{
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 
@@ -182,6 +182,29 @@ a.button-nav{
 a.button-nav:hover, .button-nav:focus {
   background-color: #FF9912;
   color:white;
+}
+
+input:focus{
+  display:flex;
+  background-color: #FF9912;
+  
+}
+
+input[type=text]{
+  display:flex;
+  border-radius: 18px;  
+  transition: ease-in-out, width .35s ease-in-out;
+}
+
+input[type=text]:focus {
+  display:flex;
+ 
+}
+
+input[type=text]:hover{
+  display:flex;
+  background-color: #FF9912;;
+ 
 }
 
 @media screen and (max-width:1000px){
