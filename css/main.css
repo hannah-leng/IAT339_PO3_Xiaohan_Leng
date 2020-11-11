@@ -2,8 +2,107 @@
   STYLE GUIDE STYLING FOR PO3 --- Xiaohan Leng
 */
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 *{
 	box-sizing: border-box;
 }
 
+body{
+	background-color:#F5F5F5;
+}
+
+h1{
+	font-family:"Poppins";
+	font-size: 36px;
+	color:#666666;
+}
+
+div.headTitle{
+	text-align: center;
+	font-family:"Poppins";
+}
+
+
+nav{
+	display:flex;
+	margin:0;
+	padding:0;
+	justify-content:space-around;
+
+}
+
+nav ul{
+	list-style: none;
+	justify-content:space-around;
+
+}
+
+nav li{
+
+	display:inline-block;
+	padding-top:0.5rem;
+	padding-bottom: 0rem;
+	padding-right: 2.5rem;
+	padding-left: 2.5rem;
+	position:relative;
+	font-weight:600;
+	font-size: 24px;
+	font-family: "Poppins";
+	justify-content:space-around;
+}
+
+nav a{
+	color:#666666;
+	text-decoration: none;
+  	text-transform: uppercase;
+}
+
+nav a:hover{
+	color:#FF9912;
+}
+
+nav a::before{
+  content:'  ';
+  display: block;
+  height:5px;
+  width: 0%;
+  background-color:#FF9912;
+  top:0;
+  position : relative;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+  font-weight:600;
+  color:#666666;
+}
+
+a:hover{
+
+  color:#FF9912;
+
+}
+
+a:focus{
+  color:rgb(153,153,204); 
+}
+
+@media screen and (max-width:1000px){
+
+nav li{
+
+  display: flex;
+  text-align:center;
+  position:relative;
+  font-weight: 600;
+  justify-content: center;
+
+	} 
+}
 
