@@ -118,7 +118,7 @@ span.highlight{
 .grey {
   width:100%;
   height:25%;
-  background-color:#73777f;
+  background-color:#41444b;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -132,7 +132,7 @@ span.highlight{
 .purple {
 	width:100%;
 	height:25%;
-  background-color:#A078C8;
+  background-color:#FF9912;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -146,12 +146,12 @@ span.highlight{
 .BluishV {
 	width:100%;
 	height:25%;
-  background-color:#9999CC;
+  background-color:#f4f4f4;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  color:rgb(255,255,255);
+  color:#41444b;
   text-align:center;
   font-weight:500;
 
