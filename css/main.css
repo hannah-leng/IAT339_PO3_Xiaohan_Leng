@@ -63,6 +63,7 @@ footer{
 	background-color:#FF9912;
 	justify-content: center;
 	display:flex;
+	border-radius: 16px;
 
 }
 a.footerhover:hover{
@@ -73,6 +74,11 @@ a.footerhover:hover{
 div.footerd{
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+}
+
+span.highlight{
+	color:#FF9912;
+	font-weight:600;
 }
 
 .Graphik{
