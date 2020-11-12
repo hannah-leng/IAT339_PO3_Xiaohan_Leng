@@ -72,6 +72,9 @@ a.footerhover:hover{
 
 }
 div.footerd{
+	display:flex;
+	justify-content: center;
+	width:100%;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 }
