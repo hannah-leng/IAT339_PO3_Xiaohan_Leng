@@ -172,6 +172,17 @@ div.element-col-3{
 	flex-wrap:wrap;
 }
 
+div.element-col-processA{
+
+	padding-top: 1rem;
+	width:45%;
+	text-align:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+}
+
 div.element-col-nav-2{
 	width:28%;
 	text-align:center;
