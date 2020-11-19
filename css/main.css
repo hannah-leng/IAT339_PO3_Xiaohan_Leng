@@ -100,6 +100,15 @@ span.highlight{
 
 }
 
+.icon-container{
+	width:60%;
+	display:flex;
+	justify-content: center;
+
+
+
+}
+
 .font-title-1{
 	padding-left:1rem;
 	padding-right:1rem;
@@ -399,6 +408,13 @@ input[type=text]:hover{
 	width:100%;
 	height:100%;
 	justify-content: center;
+}
+.icon-img{
+	display:flex;
+	width:100%;
+	height:100%;
+	justify-content: center;
+
 }
 
 .posterimg{
