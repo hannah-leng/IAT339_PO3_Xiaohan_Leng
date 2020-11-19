@@ -61,9 +61,11 @@ code{
 footer{
 
 	background-color:#FF9912;
-	justify-content: center;
+	width:100%;
+	align-items: center;
+	justify-content: space-around;
 	display:flex;
-	border-radius: 16px;
+	border-radius: 18px;
 
 }
 a.footerhover:hover{
@@ -94,7 +96,7 @@ span.highlight{
 	width:100%;
 	display:flex;
 	justify-content: center;
-	
+
 
 }
 
@@ -106,6 +108,16 @@ span.highlight{
 	justify-content: center;
 	background-color:lightgrey;
 	border-radius: 16px;
+}
+
+.font-title-2{
+	padding-left:1rem;
+	padding-right:1rem;
+	width:90%;
+	display:flex;
+	justify-content: center;
+
+	
 }
 
 .p2-title{
@@ -187,8 +199,9 @@ div.element-container{
 	justify-content: space-around;
 	padding-bottom: 1rem;
 	background-color: white; 
-	border-radius: 8px;
+	border-radius: 20px;
 	flex-direction:row;
+
 }
 
 div.element-col-1{
