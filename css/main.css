@@ -84,6 +84,16 @@ span.highlight{
 	font-weight:600;
 }
 
+@media (min-width: 40rem){
+
+  .element-container{
+    flex-direction:column;
+    flex-wrap: wrap;
+  }
+
+
+}
+
 .Graphik{
   font-family: Graphik;
   font-weight: 600;
@@ -175,6 +185,7 @@ div.element-container{
 	padding-bottom: 1rem;
 	background-color: white; 
 	border-radius: 8px;
+	flex-direction:row;
 }
 
 div.element-col-1{
