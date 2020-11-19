@@ -84,15 +84,6 @@ span.highlight{
 	font-weight:600;
 }
 
-@media (min-width: 40rem){
-
-  .element-container{
-    flex-direction:column;
-    flex-wrap: wrap;
-  }
-
-
-}
 
 .Graphik{
   font-family: Graphik;
@@ -408,6 +399,43 @@ nav li{
   font-weight: 600;
   justify-content: center;
 
-	} 
+	}
+ div.element-container{
+
+    flex-direction:column;
+    width:100%;
+    margin:auto;
+  }
+
+ div.element-col-1{
+
+  	width:100%;
+  	flex-direction:row;
+
+  }
+
+
 }
+
+@media (min-width: 20rem){
+	div.element-container{
+
+    flex-direction:row;
+    width:98%;
+    margin:auto;
+  }
+
+
+ div.element-col-1{
+
+  	flex-direction:row;
+  	padding:0.5rem;
+  	justify-content: center;
+  	align-content: center;
+  }
+
+
+
+	}
+
 
