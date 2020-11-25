@@ -166,15 +166,62 @@ span.highlight{
 
 
 
+
+}
+
+.mag-col-1{
+	
+	padding-left:1rem;
+	padding-right:1rem;
+	width:50%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color:white;
+	border-radius: 16px;
+}
+
+.mag-col-2{
+	
+	padding-left:1rem;
+	padding-right:1rem;
+	width:30%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	border:solid white;
+	
+	border-radius: 16px;
+}
+
+.img-con{
+	margin:0.5rem;
+	display:flex;
+	width:100%;
+	border: solid 4px #393e46;
+
+	border-radius: 16px;
+}
+
+div.text-con{
+	
+	display:flex;
+	flex-wrap: wrap;
+	width:100%;
+	justify-content: center;
+
+	border-radius: 16px;
+	border:dashed black;
 }
 
 .font-title-1{
+
 	padding-left:1rem;
 	padding-right:1rem;
 	width:80%;
 	display:flex;
 	justify-content: center;
-	background-color:lightgrey;
+	background-color:white;
 	border-radius: 16px;
 }
 
@@ -720,6 +767,14 @@ nav li{
 
   }
 
+    div.text-con{
+
+  	width:100%;
+  	flex-direction:row;
+  	margin:1rem;
+
+  }
+
     div.project-col-1{
 
   	width:100%;
@@ -740,6 +795,20 @@ nav li{
   	flex-direction:row;
   	width:98%;
 
+ }
+
+ div.mag-col-1{
+
+ 	width:94%;
+  	flex-direction:row;
+
+ }
+
+  div.mag-col-2{
+  	margin:0.5rem;
+  	width:94%;
+  	flex-direction:row;
+ 	
  }
 
 
@@ -893,6 +962,7 @@ nav li{
 	position: relative;
 	text-align: center;
 	font-size: 9vw;
+	padding-bottom: 10rem;
 	animation-name: clip-text;
 	color: #FFF;
 	white-space: nowrap;
@@ -956,7 +1026,7 @@ section.animation-padding{
 	padding-left: 1rem;
 
 	width:100vw;
-	height:30vh;
+	height:40vh;
 }
 
 section.animation-padding-2{
@@ -967,7 +1037,7 @@ section.animation-padding-2{
 	padding-bottom: 20rem;
 
 	width:100vw;
-	height:30vh;
+	height:40vh;
 }
 
 svg {
