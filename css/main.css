@@ -10,7 +10,7 @@
 
 body{
 	
-	background-color:#1a1c20;
+	background-color:#393e46;
 
 }
 
@@ -29,12 +29,19 @@ h2{
 
 h3{
 	font-family:"Poppins";
-	color:#FF9912;
+	color:#F8991E;
 	font-size:24px;
 }
 
 h3.nameTitle{
 	font-size:32px;
+}
+
+h3.serviceTitle{
+	font-family:"Poppins";
+	color:white;
+	font-size:24px;
+
 }
 
 .introTitle{
@@ -52,7 +59,7 @@ h4{
 
 h5{
 	font-family:"Poppins";
-	color:#FF9912;
+	color:#F8991E;
 	font-size:16px;
 
 }
@@ -84,7 +91,7 @@ code{
 
 footer{
 
-	background-color:#FF9912;
+	background-color:#F8991E;
 	width:100%;
 	align-items: center;
 	justify-content: space-around;
@@ -107,9 +114,22 @@ div.footerd{
 }
 
 span.highlight{
-	color:#FF9912;
+	color:#F8991E;
 	font-weight:600;
 }
+
+.fillOrange{
+
+	display:flex;
+	width:100%;
+	height:10vh;
+	background-color: #F8991E;
+	justify-content: center;
+	border-radius: 0px;
+
+}
+
+
 
 
 .Graphik{
@@ -199,7 +219,7 @@ span.highlight{
 .purple {
 	width:100%;
 	height:25%;
-  background-color:#FF9912;
+  background-color:#F8991E;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -234,12 +254,16 @@ div.headTitle{
 }
 
 div.element-container{
+
 	display:flex;
+
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding-bottom: 1rem;
 	background-color: white; 
-	border-radius: 20px;
+	border-radius: 18px;
 	flex-direction:row;
 
 }
@@ -250,7 +274,7 @@ div.title-container{
 	justify-content: space-around;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	background-color: #1a1c20;
+	background-color: #393e46;
 	flex-direction:row;
 
 }
@@ -266,7 +290,7 @@ div.element-col-1{
 }
 
 div.service-col-1{
-	padding-top: 2rem;
+	padding-top: 0rem;
 	width:28%;
 	text-align:left;
 	display:flex;
@@ -274,8 +298,22 @@ div.service-col-1{
 	align-items: center;
 	flex-wrap:wrap;
 	border-radius: 8px;
-	border:solid 3px #FF9912;
-	background-color: #FF9912;
+	border:solid 3px #F8991E;
+		
+}
+
+div.project-col-1{
+	width:45%;
+	text-align:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	border-radius: 16px;
+	background-color: white;
+	
+	margin:1rem;
+		
 }
 
 div.element-col-1-white{
@@ -384,7 +422,7 @@ nav a{
 }
 
 nav a:hover{
-	color:#FF9912;
+	color:#F8991E;
 }
 
 nav a::before{
@@ -392,7 +430,7 @@ nav a::before{
   display: block;
   height:5px;
   width: 0%;
-  background-color:#FF9912;
+  background-color:#F8991E;
   top:0;
   position : relative;
   transition: all ease-in-out 250ms;
@@ -405,6 +443,7 @@ nav a:hover::before{
 div.padding{
 	display:flex;
 	width:100%;
+	justify-content: center;
 	padding-top: 1.5rem;
 
 }
@@ -422,7 +461,7 @@ a {
 
 a:hover{
 
-  color:#FF9912;
+  color:#F8991E;
 
 }
 
@@ -438,7 +477,7 @@ a.button-nav{
   text-align: center;
   width:100%;
   color: #41444b;
-  background-color: #f4f4f4;
+  background-color: #f8f1f1;
   text-decoration: none;
   transition-property: background-color; 
   transition-duration: 0.5s;
@@ -446,28 +485,50 @@ a.button-nav{
 }
 
 a.button-nav:hover, .button-nav:focus {
-  background-color: #FF9912;
+  background-color: #F8991E;
   color:white;
 }
 
 a.img-effect:hover{
 
 	border: 3px 
-	solid #FF9912;
-	background-color: #FF9912;
+	solid #F8991E;
+	background-color: #F8991E;
 
+}
+
+ a>img.img:hover {
+
+ 	border-radius: 12px;
+
+    border: 6px solid white;
+ }
+
+
+a.serviceLink{
+	font-size: 20px;
+	font-weight:900;
+	color:white;
+
+}
+
+a.serviceLink:hover{
+
+	color:white;
+	font-style:italic;
+	
 }
 
 .input-text{
 	font-family:"Poppins";
-	color:#FF9912;
+	color:#F8991E;
 	font-size:16px;
 	font-weight: 600;
 }
 
 input:focus{
   display:flex;
-  background-color: #FF9912;
+  background-color: #F8991E;
   
 }
 
@@ -484,7 +545,7 @@ input[type=text]:focus {
 
 input[type=text]:hover{
   display:flex;
-  background-color: #FF9912;;
+  background-color: #F8991E;
  
 }
 
@@ -494,6 +555,16 @@ input[type=text]:hover{
 	width:100%;
 	height:100%;
 	justify-content: center;
+
+}
+
+.img-mag{
+
+	display:flex;
+	width:100%;
+	height:40%;
+	justify-content: center;
+
 }
 .icon-img{
 	display:flex;
@@ -532,13 +603,19 @@ nav li{
 
     flex-direction:column;
     width:100%;
+
     margin:auto;
+ 
+ 
+    justify-content: space-around;
   }
 
  div.element-col-1{
 
   	width:100%;
   	flex-direction:row;
+  	margin:1rem;
+
 
   }
 
@@ -546,6 +623,16 @@ nav li{
 
   	width:100%;
   	flex-direction:row;
+  	margin:1rem;
+
+  }
+
+    div.project-col-1{
+
+  	width:100%;
+  	flex-direction:row;
+  	margin:1rem;
+
 
   }
 
@@ -561,6 +648,8 @@ nav li{
   	width:98%;
 
  }
+
+
 
 
 
