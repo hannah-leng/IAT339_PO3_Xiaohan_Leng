@@ -600,6 +600,15 @@ div.padding{
 
 }
 
+div.padding-1{
+	display:flex;
+	width:100%;
+	justify-content: center;
+	padding-top: 6rem;
+	padding-bottom: 1rem;
+
+}
+
 a {
 
   padding-right: 0.5rem;
