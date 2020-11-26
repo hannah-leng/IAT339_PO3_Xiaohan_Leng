@@ -42,6 +42,14 @@ h2.process{
 
 }
 
+.processThick{
+	font-family:"Poppins";
+	color:white;
+	font-weight:000;
+	font-size:18px;
+
+}
+
 .processThinWhite{
 	font-family:"Poppins";
 	color:white;
@@ -129,9 +137,16 @@ a.footerhover:hover{
 	font-size:18px;
 	font-style: italic;
 
-
-
 }
+
+a.nameL:hover{
+
+
+	font-size:18px;
+	color:#F8991E;
+	font-style: italic;
+}
+
 div.footerd{
 	display:flex;
 	justify-content: center;
@@ -430,6 +445,19 @@ div.service-col-1{
 	flex-wrap:wrap;
 	border-radius: 8px;
 	border:solid 3px white;
+		
+}
+
+div.service-col-1-non{
+	padding-top: 0rem;
+	width:28%;
+	text-align:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+	border-radius: 8px;
+	
 		
 }
 
@@ -886,6 +914,14 @@ nav li{
   }
 
    div.service-col-1{
+
+  	width:100%;
+  	flex-direction:row;
+  	margin:0.5rem;
+
+  }
+
+     div.service-col-1-non{
 
   	width:100%;
   	flex-direction:row;
