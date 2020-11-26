@@ -27,6 +27,29 @@ h2{
 
 }
 
+h2.process{
+	font-family:"Poppins";
+	color:#41444b;
+	font-size:18px;
+
+}
+
+.processThin{
+	font-family:"Poppins";
+	color:#41444b;
+	font-weight:100;
+	font-size:18px;
+
+}
+
+.processThinWhite{
+	font-family:"Poppins";
+	color:white;
+	font-weight:100;
+	font-size:18px;
+
+}
+
 h3{
 	font-family:"Poppins";
 	color:#F8991E;
@@ -209,6 +232,7 @@ div.text-con{
 	flex-wrap: wrap;
 	width:100%;
 	justify-content: center;
+	text-align: center;
 
 	border-radius: 16px;
 	border:dashed black;
@@ -226,11 +250,15 @@ div.text-con{
 }
 
 .font-title-2{
-	padding-left:1rem;
-	padding-right:1rem;
-	width:90%;
+	
+
+	width:100%;
+	
 	display:flex;
-	justify-content: center;
+	align-self: flex-start;
+
+	
+
 
 	
 }
@@ -300,6 +328,11 @@ div.text-con{
   font-weight:500;
 
   
+}
+
+h4.stepTitle{
+	font-family: Graphik;
+	font-size:32px;
 }
 
 div.headTitle{
@@ -419,12 +452,25 @@ div.element-col-3{
 div.element-col-processA{
 
 	padding-top: 1rem;
-	width:40%;
+	width:50%;
 	text-align:left;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	flex-wrap:wrap;
+}
+
+div.element-col-processB{
+
+	
+	width:25%;
+	height:50%;
+	
+	text-align:left;
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	
 }
 
 div.element-col-nav-2{
@@ -763,7 +809,7 @@ nav li{
 
   	width:100%;
   	flex-direction:row;
-  	margin:1rem;
+  	margin:0.5rem;
 
   }
 
@@ -792,6 +838,12 @@ nav li{
   }
 
   div.element-col-processA{
+  	flex-direction:row;
+  	width:98%;
+
+ }
+
+   div.element-col-processB{
   	flex-direction:row;
   	width:98%;
 
