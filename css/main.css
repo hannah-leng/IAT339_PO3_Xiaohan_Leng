@@ -494,6 +494,18 @@ div.element-col-1-white{
 
 }
 
+div.element-col-1-white-cha{
+
+	width:68%;
+	height:50%;
+	text-align:left;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap:wrap;
+
+}
+
 div.element-col-1-white-img{
 	padding-top: 1rem;
 	width:28%;
@@ -917,7 +929,7 @@ nav li{
 
   }
 
-   div.service-col-1{
+  div.service-col-1{
 
   	width:100%;
   	flex-direction:row;
@@ -925,7 +937,7 @@ nav li{
 
   }
 
-     div.service-col-1-non{
+   div.service-col-1-non{
 
   	width:100%;
   	flex-direction:row;
@@ -951,6 +963,13 @@ nav li{
   }
 
    div.element-col-1-white{
+
+  	width:94%;
+  	flex-direction:row;
+
+  }
+
+   div.element-col-1-white-cha{
 
   	width:94%;
   	flex-direction:row;
