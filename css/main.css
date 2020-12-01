@@ -375,10 +375,16 @@ div.headTitle{
 	font-family:"Poppins";
 }
 
+div.extraSpace{
+
+	padding-bottom: 0.5rem;
+	display:flex;
+	width:100%;
+}
+
 div.element-container{
 
 	display:flex;
-
 	padding-right: 1.5rem;
 	padding-left: 1.5rem;
 	flex-wrap: wrap;
@@ -877,10 +883,7 @@ nav li{
 
     flex-direction:column;
     width:100%;
-
     margin:auto;
- 
- 
     justify-content: space-around;
   }
 
