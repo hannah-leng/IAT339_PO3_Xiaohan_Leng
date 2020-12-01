@@ -352,7 +352,7 @@ div.text-con{
 	border-radius: 12px;
 	width:100%;
 	height:25%;
-  background-color:#f4f4f4;
+  background-color:white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -571,6 +571,7 @@ div.element-col-nav-2{
 	align-items: center;
 	flex-wrap:wrap;
 }
+
 
 section.divider{
 	padding-top: 1rem;
