@@ -164,6 +164,14 @@ div.footerd{
 	padding-bottom: 1rem;
 }
 
+.citation-padding{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100vw;
+	height:26vh;
+}
+
 span.highlight{
 	color:#F8991E;
 	font-weight:600;
@@ -1309,8 +1317,6 @@ div.top-button{
 	display:flex;
 	justify-content: center;
 	align-items: center;
-
-
 	width:100vw;
 	height:20vh;
 
