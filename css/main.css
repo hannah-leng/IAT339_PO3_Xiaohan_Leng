@@ -45,7 +45,7 @@ h2.process{
 .processThick{
 	font-family:"Poppins";
 	color:white;
-	font-weight:000;
+	font-weight:600;
 	font-size:18px;
 
 }
@@ -83,8 +83,8 @@ h3.serviceTitle{
 
 h4{
 	font-family:"Poppins";
-	color:#41444b;
-	font-size:20px;
+	color:#FF9912;
+	font-size:22px;
 
 }
 
