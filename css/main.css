@@ -78,7 +78,7 @@ h3.serviceTitle{
 .introTitle{
 
 	font-size:32px;
-	align-self: left;
+
 }
 
 h4{
@@ -137,7 +137,6 @@ footer{
 	display:flex;
 	flex-wrap: wrap;
 	border-radius: 6px;
-	padding:none;
 
 }
 a.footerhover:hover{
@@ -154,6 +153,16 @@ a.nameL:hover{
 	font-size:18px;
 	color:#F8991E;
 	font-style: italic;
+}
+
+iframe{
+	width:80%;
+	height:600px;
+	border:none;
+}
+
+.citationList{
+	margin-bottom: 1rem;
 }
 
 div.footerd{
@@ -1154,16 +1163,12 @@ nav li{
 
 /*Animation */
 
-
-
 :root {
 	--delay: 3s;
 	--duration: 3s;
 	--iterations: 1;
 }
 /* •·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•·•· */
-
-
 .reveal-text,
 .reveal-text::after {
 	animation-delay: var(--animation-delay, 2s);
@@ -1171,6 +1176,7 @@ nav li{
 	animation-duration: var(--duration, 800ms);
 	animation-fill-mode: both;
 	animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+
 }
 
 .reveal-text {
@@ -1185,8 +1191,9 @@ nav li{
 	color: #FFF;
 	white-space: nowrap;
 	cursor: default;
+}
 	
-	&::after {
+.reveal-text::after {
 		content: "";
 		position: absolute;
 		z-index: 999;
@@ -1194,13 +1201,11 @@ nav li{
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: #f2f98b;
+		
 		transform: scaleX(0);
 		transform-origin: 0 50%;
 		pointer-events: none;
-		animation-name: text-revealer;
-	}
-	
+		animation-name: revealer;
 }
 
 
@@ -1214,7 +1219,7 @@ nav li{
 }
 
 
-@keyframes text-revealer {
+@keyframes revealer {
 	
 	0%, 50% {
 		transform-origin: 0 50%;
